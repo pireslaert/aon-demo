@@ -30,5 +30,5 @@ Running a simple web application to query and return data
 # URL
 Web Server
 ````
-127.0.0.1:8000/index.php
+127.0.0.1:8000
 ````
