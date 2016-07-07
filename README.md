@@ -30,5 +30,10 @@ Running a simple web application to query and return data
 # URL
 Web Server
 ````
-127.0.0.1:8000
+http://127.0.0.1:8000
+
+or 
+
+http://172.17.8.101
+
 ````
