@@ -1,0 +1,13 @@
+name    'lpires-config'
+version '0.0.1'
+
+author 'lpires'
+summary 'config module'
+description 'config module'
+
+# Add dependencies here, if any (NB: Must be in the form 'author/modulename')
+
+dependency 'puppetlabs/stdlib'
+dependency 'puppetlabs/vcsrepo'
+dependency 'puppetlabs/mysql'
+dependency 'puppetlabs/apache'
