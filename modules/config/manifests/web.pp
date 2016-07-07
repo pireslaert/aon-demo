@@ -14,5 +14,9 @@ class config::web {
     ensure  => present,
   }
   
+  package { 'php-mysql':
+    ensure  => present,
+  }
+  
   class { 'apache::mod::php': }
 }

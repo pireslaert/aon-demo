@@ -1,17 +1,23 @@
 
 <?php
 // Connecting, selecting database
-
-echo "<b> AON Demo TEST </b>\n";
-echo "</br>\n";
+echo "<br>\n";
+echo "<b> AON Demo </b>\n";
+echo "<br>\n";
 
 $link = mysql_connect('localhost', 'root', 'root') or die('Could not connect: ' . mysql_error());
-echo 'Connected successfully';
+echo '<b> Connected to DB successfully </b>\n';
+echo "<br>\n";
 mysql_select_db('mysql') or die('Could not select database');
 
 // Performing SQL query
-$query = 'SELECT * FROM USER';
+$query = 'select * from user';
 $result = mysql_query($query) or die('Query failed: ' . mysql_error());
+
+
+echo "<br>\n";
+echo "<b> USER Table </b>\n";
+echo "<br>\n";
 
 // Printing results in HTML
 echo "<table>\n";
