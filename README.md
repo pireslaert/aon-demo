@@ -5,7 +5,6 @@ Prerequisites:
 - Vagrant
 
 ```
-## This is a full re-write of the environment.
 
 # Install dependencies
 ```
