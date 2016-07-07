@@ -13,4 +13,5 @@
       - { shell: /opt/puppet/bin/gem install r10k }
       - { shell: 'echo -e "172.17.8.101 aon-demo">/etc/hosts && echo "PATH=\$PATH:/usr/local/bin" >> ~/.bashrc' } 
       - { shell: cp /home/vagrant/aon-demo/Puppetfile /tmp && cd /tmp && /opt/puppet/bin/r10k puppetfile install -v }
-      - { shell: cp /home/vagrant/aon-demo/modules/* -R /tmp/modules  && mkdir -p /var/www/aon-demo && cp -r /home/vagrant/aon-demo/www/* /var/www/aon-demo && chown -R root:root /var/www/aon-demo }
+      - { shell: cp /home/vagrant/aon-demo/modules/* -R /tmp/modules }
+      - { shell: mkdir -p /var/www/aon-demo && cp -r /home/vagrant/aon-demo/www/* /var/www/aon-demo && chown -R root /var/www/aon-demo}
