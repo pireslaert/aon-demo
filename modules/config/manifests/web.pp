@@ -2,6 +2,7 @@ class config::web {
   
   class { 'apache':
     default_vhost => true,
+	docroot => '/var/www/aon-demo',
 	mpm_module    => 'prefork',
   }		
   

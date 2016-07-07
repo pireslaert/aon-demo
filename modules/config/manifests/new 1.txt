@@ -1,3 +1,0 @@
---pluginsync --modulepath=/tmp/modules --verbose --debug
-
- /opt/puppet/bin/puppet apply manifests/default.pp --modulepath=/tmp/modules --verbose --debug
